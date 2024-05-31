@@ -2,10 +2,8 @@ import { RouteObject, createBrowserRouter } from "react-router-dom";
 import { ProtectedRoutes } from "./ProtectedRoutes";
 
 import { ErrorView } from "../Views/Common/ErrorView";
-import GrowSavingsView from "../Views/GrowSavingsView";
 import FinancialLiteratureView from '../Views/FinancialLiteratureView';
-// import { LandingView } from "../Views/LandingView";
-import RetirementPlanDashboard from "../Views/RetirementPlanDashboard";
+import { LandingView } from "../Views/LandingView";
 // import { ExternalReferredLoader } from "./RouteLoaders/ExternalReferredLoader";
 
 
@@ -13,13 +11,8 @@ import RetirementPlanDashboard from "../Views/RetirementPlanDashboard";
 export const router = createBrowserRouter([
     {
         path: "/",
-        Component: RetirementPlanDashboard,
-        // Component: LandingView,
+        Component: LandingView,
         ErrorBoundary: ErrorView
-    },
-    {
-        path: "/grow",
-        Component: GrowSavingsView
     },
     {
         path: "/fin-lit",
