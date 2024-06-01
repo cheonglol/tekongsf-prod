@@ -6,7 +6,7 @@ export const LandingView = () => {
     <BasicLayout
       mainContent={
         <>
-          <h1>IT FUCKING WORKS</h1>
+          <h1>init</h1>
         </>
       }
     />
