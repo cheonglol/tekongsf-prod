@@ -3,17 +3,17 @@
     "name": "Tekong Seafood Restuarant",
     "icons": [
         {
-            "src": "new_logo_prototype_9LT_icon.ico",
+            "src": "LOGO_ICON.ico",
             "sizes": "64x64 32x32 24x24 16x16",
             "type": "image/x-icon"
         },
         {
-            "src": "new_logo_prototype.png",
+            "src": "logo192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "new_logo_prototype.png",
+            "src": "logo512.png",
             "type": "image/png",
             "sizes": "512x512"
         }

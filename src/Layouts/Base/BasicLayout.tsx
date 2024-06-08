@@ -1,6 +1,6 @@
-import FooterNav from "../../Components/Navigational/FooterNav";
-import { Footer } from "../../Components/Navigational/Footer";
-import { HeaderNav } from "../../Components/Navigational/HeaderNav";
+import FooterNav from "../../Components/Common/FooterNav";
+import { Footer } from "../../Components/Common/Footer";
+import { HeaderNav } from "../../Components/Common/HeaderNav";
 
 interface Props {
   headerContent?: any | undefined;
