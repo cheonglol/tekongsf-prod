@@ -10,8 +10,7 @@ import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 // ### PRIMEREACT CSS ###
 import "primeicons/primeicons.css";
-import "primereact/resources/themes/md-dark-deeppurple/theme.css";
-import BottomNavigation from "./Components/Navigational/BottomNavigation";
+import "primereact/resources/themes/viva-light/theme.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

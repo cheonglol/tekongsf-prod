@@ -2,7 +2,7 @@ import { RouteObject, createBrowserRouter } from "react-router-dom";
 import { ProtectedRoutes } from "./ProtectedRoutes";
 
 import { ErrorView } from "../Views/Common/ErrorView";
-import FinancialLiteratureView from '../Views/FinancialLiteratureView';
+import FeaturedVerticalSlideView from '../Views/FeaturedVerticalSlide';
 import { LandingView } from "../Views/LandingView";
 // import { ExternalReferredLoader } from "./RouteLoaders/ExternalReferredLoader";
 
@@ -15,8 +15,8 @@ export const router = createBrowserRouter([
         ErrorBoundary: ErrorView
     },
     {
-        path: "/fin-lit",
-        Component: () => { return FinancialLiteratureView() as JSX.Element; }
+        path: "/featured",
+        Component: () => { return FeaturedVerticalSlideView() as JSX.Element; }
     },
     ...ProtectedRoutes.map((route: RouteObject) => {
         return route;

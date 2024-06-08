@@ -1,4 +1,4 @@
-import BottomNavigation from "../../Components/Navigational/BottomNavigation";
+import FooterNav from "../../Components/Navigational/FooterNav";
 import { Footer } from "../../Components/Navigational/Footer";
 import { HeaderNav } from "../../Components/Navigational/HeaderNav";
 
@@ -25,7 +25,7 @@ export const BasicLayout = ({
       </header>
       <main className="py-8 px-[4vw] min-h-screen ">{mainContent}</main>
       <footer>{!footerContent ? defaultFooter : footerContent}</footer>
-      {includesBottomNav ? <BottomNavigation /> : ""}
+      {includesBottomNav ? <FooterNav /> : ""}
     </>
   );
 };

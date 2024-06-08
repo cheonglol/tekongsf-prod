@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 
-export interface FinLitSlideProps {
+export interface FeaturedVerticalSlideProps {
   backgroundImageURL: string;
   imageURL: string;
   title: string;
@@ -9,13 +9,13 @@ export interface FinLitSlideProps {
   endText?: string;
 }
 
-export const FinLitBoilerplate = ({
+export const FeaturedVerticalSlideTemplate = ({
   backgroundImageURL,
   imageURL,
   title,
   description,
   endText,
-}: FinLitSlideProps) => {
+}: FeaturedVerticalSlideProps) => {
   return (
     <div className="snap-always snap-start">
       <div
@@ -47,4 +47,4 @@ export const FinLitBoilerplate = ({
   );
 };
 
-export default FinLitBoilerplate;
+export default FeaturedVerticalSlideTemplate;

@@ -1,1 +1,1 @@
-export const randomIndex = (anyArr: any[]) => Math.floor(Math.random() * anyArr.length)
+export const getRandomArrayPosition = (anyArr: any[]) => Math.floor(Math.random() * anyArr.length)

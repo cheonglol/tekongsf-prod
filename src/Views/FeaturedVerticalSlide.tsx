@@ -2,21 +2,21 @@
 
 import { Skeleton } from "primereact/skeleton";
 import { useEffect, useState } from "react";
-import FinLitBoilerplate, {
-  FinLitSlideProps,
-} from "../Components/FinLiterature/FinLitBoilerplate";
+import FeaturedVerticalSlideTemplate, {
+  FeaturedVerticalSlideProps,
+} from "../Components/FeaturedVerticalSlide/FeaturedVerticalSlide";
 import { getFinLitSlideContents } from "../Helpers/FinLitStaticContentHelper";
 
 export const FinancialLiteratureView = () => {
-  const [contentArr, setContentArr] = useState<FinLitSlideProps[] | undefined>(
-    undefined
-  );
+  const [contentArr, setContentArr] = useState<
+    FeaturedVerticalSlideProps[] | undefined
+  >(undefined);
 
   useEffect(() => {
     const fetchData = async () => {
       const prom = await getFinLitSlideContents();
       Promise.resolve(prom).then((data) => {
-        setContentArr(data as FinLitSlideProps[]);
+        setContentArr(data as FeaturedVerticalSlideProps[]);
       });
     };
     if (!contentArr) {
@@ -29,7 +29,7 @@ export const FinancialLiteratureView = () => {
       <div className="snap-y snap-mandatory overflow-y-scroll h-screen">
         {contentArr.map((element) => {
           return (
-            <FinLitBoilerplate
+            <FeaturedVerticalSlideTemplate
               backgroundImageURL={element.backgroundImageURL}
               imageURL={element.imageURL}
               title={element.title}

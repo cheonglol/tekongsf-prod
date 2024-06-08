@@ -1,9 +1,10 @@
 import { CustomApiErrorMessage } from '../APIs/CustomApiErrorMessage';
 import { AI_Response, getAiResponseHistory } from '../APIs/JigsawStackAPIs/PromptEngine_API';
-import { FinLitSlideProps } from '../Components/FinLiterature/FinLitBoilerplate';
-import { randomIndex } from './RandomElementInArrayHelper';
+import { FeaturedVerticalSlideProps } from '../Components/FeaturedVerticalSlide/FeaturedVerticalSlide';
+import { getRandomArrayPosition } from './RandomElementInArrayHelper';
 
-export const getFinLitSlideContents = async (): Promise<CustomApiErrorMessage | FinLitSlideProps[]> => {
+// TODO: SCRAP CODE - only keeping as reference
+export const getFinLitSlideContents = async (): Promise<CustomApiErrorMessage | FeaturedVerticalSlideProps[]> => {
     let storeBackgroundImages: string[] = [
         "https://i.pinimg.com/564x/0c/91/ef/0c91ef7c7176883527e8ff62704bedee.jpg",
         "https://i.pinimg.com/564x/94/c2/18/94c218e20d5a22e498bf635eb134f907.jpg",
@@ -14,13 +15,13 @@ export const getFinLitSlideContents = async (): Promise<CustomApiErrorMessage | 
         "https://em-content.zobj.net/source/apple/391/sneezing-face_1f927.png",
         "https://em-content.zobj.net/source/apple/391/nerd-face_1f913.png",
     ]
-    let returnValue: FinLitSlideProps[] = []
+    let returnValue: FeaturedVerticalSlideProps[] = []
 
     const data = await getAiResponseHistory();
     (data as AI_Response).result.forEach(element => {
-        let newContent: FinLitSlideProps = {
-            backgroundImageURL: storeBackgroundImages[randomIndex(storeBackgroundImages)],
-            imageURL: storeImages[randomIndex(storeImages)],
+        let newContent: FeaturedVerticalSlideProps = {
+            backgroundImageURL: storeBackgroundImages[getRandomArrayPosition(storeBackgroundImages)],
+            imageURL: storeImages[getRandomArrayPosition(storeImages)],
             title: element.summary,
             description: element.excerpt
         }
