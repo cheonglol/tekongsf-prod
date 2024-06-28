@@ -11,7 +11,7 @@ export const LandingView = () => {
                 <>
                     <hr className="my-10" />
                     {/* CONTACT US (Map & Shit Here) */}
-                    <div className="bg-red-700 min-h-[42rem]">
+                    <div className="min-h-[42rem]">
                         <h1></h1>
                         <iframe
                             title="Google Maps"
