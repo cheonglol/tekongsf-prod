@@ -3,46 +3,37 @@
 import { Skeleton } from "primereact/skeleton";
 import { useEffect, useState } from "react";
 import FeaturedVerticalSlideTemplate, {
-  FeaturedVerticalSlideProps,
+    FeaturedVerticalSlideProps,
 } from "../Components/FeaturedVerticalSlide/FeaturedVerticalSlide";
-import { getFinLitSlideContents } from "../Helpers/FinLitStaticContentHelper";
 
 export const FinancialLiteratureView = () => {
-  const [contentArr, setContentArr] = useState<
-    FeaturedVerticalSlideProps[] | undefined
-  >(undefined);
+    const [contentArr, setContentArr] = useState<FeaturedVerticalSlideProps[] | undefined>(undefined);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const prom = await getFinLitSlideContents();
-      Promise.resolve(prom).then((data) => {
-        setContentArr(data as FeaturedVerticalSlideProps[]);
-      });
-    };
-    if (!contentArr) {
-      fetchData();
+    useEffect(() => {
+        if (!!contentArr) setContentArr(undefined);
+        if (!contentArr) {
+        }
+    }, [contentArr]);
+
+    if (!!contentArr) {
+        return (
+            <div className="snap-y snap-mandatory overflow-y-scroll h-screen">
+                {contentArr.map((element) => {
+                    return (
+                        <FeaturedVerticalSlideTemplate
+                            backgroundImageURL={element.backgroundImageURL}
+                            imageURL={element.imageURL}
+                            title={element.title}
+                            description={element.description}
+                            endText={element.endText}
+                        />
+                    );
+                })}
+            </div>
+        );
+    } else {
+        return <Skeleton animation="wave" height="90vh" />;
     }
-  });
-
-  if (!!contentArr) {
-    return (
-      <div className="snap-y snap-mandatory overflow-y-scroll h-screen">
-        {contentArr.map((element) => {
-          return (
-            <FeaturedVerticalSlideTemplate
-              backgroundImageURL={element.backgroundImageURL}
-              imageURL={element.imageURL}
-              title={element.title}
-              description={element.description}
-              endText={element.endText}
-            />
-          );
-        })}
-      </div>
-    );
-  } else {
-    return <Skeleton animation="wave" height="90vh" />;
-  }
 };
 
 export default FinancialLiteratureView;
