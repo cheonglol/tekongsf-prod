@@ -1,1 +1,0 @@
-export const getRandomArrayPosition = (anyArr: any[]) => Math.floor(Math.random() * anyArr.length)
