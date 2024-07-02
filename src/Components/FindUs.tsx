@@ -1,12 +1,17 @@
 import { Button } from "primereact/button";
 import { contentSectionHeader } from "../Constants/CustomTailwindClassnames";
+import { Card } from "primereact/card";
 
 const FindUs = () => {
     return (
-        <div className="min-h-[42rem]">
+        <div
+            className="min-h-[42rem] bg-cover bg-center bg-no-repeat"
+            // style={{ backgroundImage: `url("Backdrop.jpg")` }}
+        >
             <h1 className={`${contentSectionHeader}`}>Find Us</h1>
             <div className="md:flex md:flex-row-reverse">
                 <div className="md:m-4 md:flex-grow-[1] text-center md:text-left space-y-4">
+                    <img src="Backdrop.jpg" className="object-cover mx-0 overflow-clip md:w-[400px] w-[100%]" />
                     <h1>Opens Daily</h1>
                     <p>Opening & Closing Hours</p>
                     <ul className="list md:ml-4">
@@ -14,8 +19,9 @@ const FindUs = () => {
                         <li>05:00 PM to 11:00 PM</li>
                     </ul>
                     <Button
-                        icon={<span className="pi pi-bell text-[1.5rem] mr-4"></span>}
-                        className="p-6 bg-orange-500 text-white text-[1.5rem]"
+                        style={{ fontFamily: "Lexend Variable" }}
+                        icon={<span className="pi pi-bell text-lg mr-4"></span>}
+                        className="p-6 bg-orange-500 text-white text-lg"
                         onClick={() => {
                             window.open("https://www.quandoo.sg/place/tekong-seafood-restaurant-40499");
                         }}

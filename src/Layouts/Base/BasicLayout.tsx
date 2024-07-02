@@ -16,7 +16,7 @@ export const BasicLayout = ({ headerContent, mainContent, footerContent, include
     return (
         <>
             <header className="py-4">{!headerContent ? defaultHeader : headerContent}</header>
-            <main className="py-8 px-[6vw] md:px-[14vw] min-h-screen ">{mainContent}</main>
+            <main className="py-8 px-[6vw] md:px-[8vw] lg:px-[14vw] min-h-screen ">{mainContent}</main>
             <footer>{!footerContent ? defaultFooter : footerContent}</footer>
             {includesBottomNav ? <BottomFloatNav /> : ""}
         </>
