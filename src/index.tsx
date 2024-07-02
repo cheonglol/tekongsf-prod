@@ -12,30 +12,12 @@ import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import "primeicons/primeicons.css";
 import "primereact/resources/themes/viva-light/theme.css";
 
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-);
-
-interface Props {
-  children?: any;
-}
-const MasterProvider = ({ children }: Props) => {
-  useEffect(() => {}, []);
-
-  return (
-    <>
-      {/* <ReduxStoreProvider store={store}> */}
-      <RouterProvider router={router} />
-      <PrimeReactProvider>{children}</PrimeReactProvider>
-      {/* </ReduxStoreProvider> */}
-    </>
-  );
-};
+const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 
 root.render(
-  <React.StrictMode>
-    <MasterProvider children={<App />} />
-  </React.StrictMode>
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
 );
 
 // If you want your app to work offline and load faster, you can change
