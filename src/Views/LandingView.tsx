@@ -9,7 +9,7 @@ export const LandingView = () => {
             // includesBottomNav={true}
             mainContent={
                 <>
-                    <div className="md:flex md:flex-row m-auto mx-10 space-x-4">
+                    <div className="md:flex md:flex-row m-auto">
                         <iframe
                             title="Youtube Video Player"
                             src="https://www.youtube-nocookie.com/embed/kW3zm9-F3Cs?si=h8xdp2QgpFEI2UxU"
