@@ -24,7 +24,7 @@ export const LandingView = () => {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         /> */}
                         <blockquote
-                            className="tiktok-embed w-[50vw] min-w-[50vh] m-auto flex-1"
+                            className="tiktok-embed w-[50vw] min-w-[50vw] m-auto flex-1"
                             cite="https://www.tiktok.com/@iamxiangyun/video/7386976927015292181"
                             data-video-id="7386976927015292181"
                             data-embed-from="embed_page"
