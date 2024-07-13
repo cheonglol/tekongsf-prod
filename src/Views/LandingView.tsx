@@ -1,30 +1,24 @@
-import { Button } from "primereact/button";
 import Header from "../Components/Common/Header";
 import { BasicLayout } from "../Layouts/Base/BasicLayout";
-import { contentSectionHeader } from "../Constants/CustomTailwindClassnames";
-import { AboutUs } from "../Components/AboutUs";
-import FindUs from "../Components/FindUs";
 
 export const LandingView = () => {
     // TODO: we need to change this or at least redircet
     return (
         <BasicLayout
             headerContent={<Header />}
-            includesBottomNav={true}
+            // includesBottomNav={true}
             mainContent={
                 <>
-                    <div className="flex flex-row m-auto mx-10">
+                    <div className="md:flex md:flex-row m-auto mx-10 space-x-4">
                         <iframe
-                            className="flex-3 m-auto h-[500px] w-[50vw]"
+                            title="Youtube Video Player"
+                            className="flex-3 m-auto h-[50vh] w-[100%] mx-4"
                             src="https://www.youtube-nocookie.com/embed/kW3zm9-F3Cs?si=h8xdp2QgpFEI2UxU"
-                            title="YouTube video player"
-                            frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerPolicy="strict-origin-when-cross-origin"
                             allowFullScreen
-                        ></iframe>
+                        />
                         <blockquote
-                            className="tiktok-embed max-w-[605px] min-w-[325px] m-auto"
+                            className="tiktok-embed w-[50vw] min-w-[50vh] m-auto"
                             cite="https://www.tiktok.com/@iamxiangyun/video/7386976927015292181"
                             data-video-id="7386976927015292181"
                             data-embed-from="embed_page"
@@ -61,30 +55,23 @@ export const LandingView = () => {
                             </section>
                         </blockquote>
                     </div>
-                    <hr className="my-[6rem]" />
+                    <hr />
                     {/* CONTACT US (Map & Shit Here) */}
-                    <div className="min-h-[42rem]">
-                        {/* <h1 className={`${componentHeaderClassname}`}>Make a Reservation</h1> */}
-                        <h1>Make a Reservation</h1>
+                    <div>
+                        <h1 className="text-center tksf-content-heading">
+                            <span className="font-thin block my-8">预订</span>
+                            <span>RESERVATION</span>
+                        </h1>
                         <div className="md:flex md:flex-row-reverse">
-                            <div className="m-0 md:m-4 md:flex-grow-[1]">
-                                <h2>Address or something</h2>
-                                {/* <Button
-                                    className="my-8 p-8 bg-orange-500 text-white text-[1.5rem]"
-                                    onClick={() => {
-                                        window.open("https://www.quandoo.sg/place/tekong-seafood-restaurant-40499");
-                                    }}
-                                >
-                                    {`${String("Make a Reservation").toUpperCase()}`}
-                                </Button> */}
-                                {/* TODO: Button not working get from https://admin.quandoo.com/ | FIND A WAY TO PUT RAW HTML */}
-                                <div
-                                    className="quandoo-widget-builder"
-                                    data-config='{"format":"text-button","bgcolor":"#f5b016","txcolor":"#ffffff","round":"yes","position":"","font":"md","merchant":40499,"txt":"Reserve now"}'
-                                ></div>
-                                {/* <script src="https://s3-eu-west-1.amazonaws.com/quandoo-website/widget-builder/quandoo-widget-builder.js"></script> */}
+                            <div className="m-0 md:m-4 md:flex-grow-[1] min-h-fit">
+                                <iframe
+                                    title="Quandoo Booking Widget"
+                                    src="https://www.quandoo.sg/checkout-widget/widget?agentId=2&amp;merchantId=40499&amp;primaryColor=f5b016&amp;theme=light&amp;widgetType=calendar"
+                                    className="min-h-[685px] w-[100%]"
+                                ></iframe>
+                                {/* <div id="quandoo-booking-widget" className="m-auto"></div> */}
                             </div>
-                            <div className="m-0 md:m-4 md:flex-grow-[3]">
+                            <div className="m-0 md:m-4 md:flex-grow-[2]">
                                 <iframe
                                     title="Google Maps"
                                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.57717929964!2d103.9887667!3d1.3899862!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaf95959e509a6e27!2sTekong+Seafood+Restaurant!5e0!3m2!1sen!2sau!4v1546924456558"
@@ -95,6 +82,7 @@ export const LandingView = () => {
                             </div>
                         </div>
                     </div>
+                    {/* BLOG */}
                 </>
             }
         />

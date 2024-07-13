@@ -3,6 +3,8 @@ const ESLintPlugin = require('eslint-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 const path = require('path');
 const webpack = require("webpack")
+const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
+
 
 module.exports = {
     mode: "development",
@@ -27,16 +29,18 @@ module.exports = {
         filename: "bundle.js",
         path: path.resolve(__dirname, "dist"),
     },
-    plugins: [million.webpack({ auto: true }),
-    new Dotenv({
-        path: "./.env",
-    }),
-    new webpack.DefinePlugin({
-        'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-    }),
-    new ESLintPlugin({
-        // Plugin options
-        extensions: ['js', 'jsx', 'ts', 'tsx'],
-    }),
+    plugins: [
+        million.webpack({ auto: true }),
+        new Dotenv({
+            path: "./.env",
+        }),
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+        }),
+        new ESLintPlugin({
+            // Plugin options
+            extensions: ['js', 'jsx', 'ts', 'tsx'],
+        }),
+        new HtmlWebpackInlineSourcePlugin(),
     ],
 };
