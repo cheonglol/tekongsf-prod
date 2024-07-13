@@ -13,7 +13,7 @@ export const LandingView = () => {
                         <iframe
                             title="Youtube Video Player"
                             src="https://www.youtube-nocookie.com/embed/kW3zm9-F3Cs?si=h8xdp2QgpFEI2UxU"
-                            className="flex-1 m-auto h-[50vh] w-[100%] mx-4"
+                            className="flex-1 m-auto h-[50vh] w-[100%] m-auto"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen
                         />
