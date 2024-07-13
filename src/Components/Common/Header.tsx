@@ -2,7 +2,10 @@ export const Header = (): JSX.Element => {
     return (
         <div className="flex justify-around py-6">
             <img
-                className="max-w-[28vw] md:max-w-[20vw] lg:max-w-[14vw]"
+                onClick={() => {
+                    window.location.href = "/";
+                }}
+                className="max-w-[50vw] md:max-w-[30vw] lg:max-w-[18vw]"
                 src="mirror_logo.png"
                 alt="tekong-seafood-resturant-logo"
             />
