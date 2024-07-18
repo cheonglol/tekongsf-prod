@@ -9,16 +9,22 @@ export const LandingView = () => {
             // includesBottomNav={true}
             mainContent={
                 <>
-                    <div className="md:flex md:flex-row m-auto mx-10 space-x-4">
+                    <div className="md:flex md:flex-row m-auto">
                         <iframe
                             title="Youtube Video Player"
-                            className="flex-3 m-auto h-[50vh] w-[100%] mx-4"
                             src="https://www.youtube-nocookie.com/embed/kW3zm9-F3Cs?si=h8xdp2QgpFEI2UxU"
+                            className="flex-1 m-auto h-[50vh] w-[100%] m-auto"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen
                         />
+                        {/* <iframe
+                            title="Tiktok"
+                            className="flex-1 m-auto h-[50vh] w-[100%] mx-4"
+                            src="https://www.tiktok.com/@iamxiangyun/video/7386976927015292181"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        /> */}
                         <blockquote
-                            className="tiktok-embed w-[50vw] min-w-[50vh] m-auto"
+                            className="tiktok-embed w-[50vw] min-w-[50vw] m-auto flex-1"
                             cite="https://www.tiktok.com/@iamxiangyun/video/7386976927015292181"
                             data-video-id="7386976927015292181"
                             data-embed-from="embed_page"
