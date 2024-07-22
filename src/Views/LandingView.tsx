@@ -1,5 +1,7 @@
 import Header from "../Components/Common/Header";
 import { BasicLayout } from "../Layouts/Base/BasicLayout";
+import ContentSection from "../Components/Common/ContentSection";
+import DishMenu from "../Components/DishMenu";
 
 export const LandingView = () => {
     // TODO: we need to change this or at least redircet
@@ -88,7 +90,8 @@ export const LandingView = () => {
                             </div>
                         </div>
                     </div>
-                    {/* BLOG */}
+                    {/* MENU */}
+                    <ContentSection titleChi="菜单" titleEng="MENU" content={<>{DishMenu()}</>} />
                 </>
             }
         />
