@@ -1,0 +1,1156 @@
+{
+    "特别推荐 | Specials": [
+        {
+            "chineseDishName": "佛跳墙",
+            "englishDishName": "Buddha Jump Over The Wall",
+            "pricing": "Request for Quote",
+            "isAdvancedOrder": true
+        },
+        {
+            "chineseDishName": "布袋猪肚汤",
+            "englishDishName": "Pig Stomach Soup",
+            "pricing": "$62 (Single) | $80 (Double)",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "烧猪",
+            "englishDishName": "Sucking pig",
+            "pricing": "$218",
+            "isAdvancedOrder": true
+        }
+    ],
+    "拼盘 | Platter": [
+        {
+            "chineseDishName": "龙虾拼盘",
+            "englishDishName": "Lobster Platter",
+            "pricing": "$168",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "德光拼盘",
+            "englishDishName": "Tekong Platter",
+            "pricing": "$75",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "三色拼盘",
+            "englishDishName": "Fortune Platter",
+            "pricing": "$45",
+            "isAdvancedOrder": false
+        }
+    ],
+    "鱼翅 | Shark's Fin": [
+        {
+            "chineseDishName": "砂煲鱼翅",
+            "englishDishName": "Superior Shark's Fin ",
+            "pricing": "$38/Pax",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "上汤一品锅",
+            "englishDishName": "Superior Combination Pot",
+            "pricing": "$38 | $66 | $88",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "蟹黄鱼翅",
+            "englishDishName": "Shark's Fin w Crab Roe",
+            "pricing": "$35 | $65 | $85",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "桂花翅",
+            "englishDishName": "Fried Shark's Fin w Scramble Egg",
+            "pricing": "$22 | $33 | $44",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "蟹肉鱼飘羹",
+            "englishDishName": "Fish Maw w Crab Meat Soup",
+            "pricing": "$22 | $44 | $66",
+            "isAdvancedOrder": false
+        }
+    ],
+    "鲍鱼 | Abalone": [
+        {
+            "chineseDishName": "生捞鲍鱼",
+            "englishDishName": "Abalone w Thai Sauce",
+            "pricing": "$88",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "红烧鲍鱼",
+            "englishDishName": "Braised Abalone",
+            "pricing": "$98",
+            "isAdvancedOrder": false
+        }
+    ],
+    "海参 | Sea-Cucumber": [
+        {
+            "chineseDishName": "红烧海参",
+            "englishDishName": "Braised Sea-Cucumber",
+            "pricing": "$38 | $68 | $88",
+            "isAdvancedOrder": false
+        }
+    ],
+    "龙虾 | Lobster": [
+        {
+            "chineseDishName": "龙虾",
+            "englishDishName": "Lobster",
+            "pricing": "$19.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "刺身",
+            "englishDishName": "Sashimi",
+            "pricing": "$19.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "清蒸",
+            "englishDishName": "Steamed",
+            "pricing": "$19.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "上汤",
+            "englishDishName": "Lobster with Superior Broth",
+            "pricing": "$19.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "烧烤",
+            "englishDishName": "BBQ",
+            "pricing": "$19.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "辣椒",
+            "englishDishName": "Chilli",
+            "pricing": "$19.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "沙律",
+            "englishDishName": "Salad",
+            "pricing": "$19.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "牛油",
+            "englishDishName": "Butter",
+            "pricing": "$19.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "椒盐",
+            "englishDishName": "Pepper & Salt",
+            "pricing": "$19.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "咸蛋黄",
+            "englishDishName": "Salted Egg Yolk",
+            "pricing": "$19.80/per 100g",
+            "isAdvancedOrder": false
+        }
+    ],
+    "虾 | Prawn": [
+        {
+            "chineseDishName": "虾",
+            "englishDishName": "Prawn",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "白灼",
+            "englishDishName": "Poached",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "辣椒",
+            "englishDishName": "Chilli",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "沙律",
+            "englishDishName": "Salad",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "糖醋",
+            "englishDishName": "Sweet & Sour",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "椒盐",
+            "englishDishName": "Pepper & Salt",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "牛油",
+            "englishDishName": "Butter",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "麦片",
+            "englishDishName": "Cereal",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "奶油",
+            "englishDishName": "Creamy Butter",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "印尼式",
+            "englishDishName": "Indonesia",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "甘香",
+            "englishDishName": "Curry & Spice",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "咸蛋黄",
+            "englishDishName": "Salted Egg Yolk",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "鼓油王",
+            "englishDishName": "Spacial Light Sauce",
+            "pricing": "$8.00/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "醉虾",
+            "englishDishName": "Drunken Prawn",
+            "pricing": "$9.00/per 100g",
+            "isAdvancedOrder": false
+        }
+    ],
+    "虾球 | Deshelled Prawn": [
+        {
+            "chineseDishName": "牛油",
+            "englishDishName": "Butter",
+            "pricing": "$22 | $33 | $44",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "麦片",
+            "englishDishName": "Cereal",
+            "pricing": "$22 | $33 | $44",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "酥炸",
+            "englishDishName": "Deep Fried",
+            "pricing": "$22 | $33 | $44",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "沙律",
+            "englishDishName": "Salad",
+            "pricing": "$22 | $33 | $44",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "糖醋",
+            "englishDishName": "Sweet & Sour",
+            "pricing": "$22 | $33 | $44",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "宫保",
+            "englishDishName": "Kung Pao",
+            "pricing": "$22 | $33 | $44",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "咸蛋黄",
+            "englishDishName": "Salted Egg Yolk",
+            "pricing": "$23 | $36 | $48",
+            "isAdvancedOrder": false
+        }
+    ],
+    "螃蟹 | Crab": [
+        {
+            "chineseDishName": "清蒸",
+            "englishDishName": "Steam",
+            "pricing": "$9.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "辣椒",
+            "englishDishName": "Chilli",
+            "pricing": "$9.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "甘香",
+            "englishDishName": "Curry & Spice",
+            "pricing": "$9.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "牛油",
+            "englishDishName": "Butter",
+            "pricing": "$9.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "盐焗",
+            "englishDishName": "Baked",
+            "pricing": "$9.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "奶油",
+            "englishDishName": "Creamy Butter",
+            "pricing": "$9.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "咸蛋黄",
+            "englishDishName": "Salted Egg Yolk",
+            "pricing": "$9.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "黑椒",
+            "englishDishName": "Black Pepper",
+            "pricing": "$9.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "椒盐",
+            "englishDishName": "Pepper & Salt",
+            "pricing": "$9.80/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "海花蟹",
+            "englishDishName": "Red Flower Crab",
+            "pricing": "(Market price)",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "海螳螂",
+            "englishDishName": "Sea Mantis",
+            "pricing": "(Market price)",
+            "isAdvancedOrder": false
+        }
+    ],
+    "花蟹 | Flower Crab": [
+        {
+            "chineseDishName": "清蒸",
+            "englishDishName": "Steam",
+            "pricing": "$7.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "辣椒",
+            "englishDishName": "Chilli",
+            "pricing": "$7.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "牛油",
+            "englishDishName": "Butter",
+            "pricing": "$7.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "奶油",
+            "englishDishName": "Creamy Butter",
+            "pricing": "$7.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "黑椒",
+            "englishDishName": "Black Pepper",
+            "pricing": "$7.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "椒盐",
+            "englishDishName": "Pepper & Salt",
+            "pricing": "$7.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "甘香",
+            "englishDishName": "Curry & Spice",
+            "pricing": "$7.50/per 100g",
+            "isAdvancedOrder": false
+        }
+    ],
+    "虾婆 | Crayfish": [
+        {
+            "chineseDishName": "清蒸",
+            "englishDishName": "Steam",
+            "pricing": "$6.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "辣椒",
+            "englishDishName": "Chilli",
+            "pricing": "$6.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "奶油",
+            "englishDishName": "Creamy Butter",
+            "pricing": "$6.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "椒盐",
+            "englishDishName": "Pepper & Salt",
+            "pricing": "$6.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "牛油",
+            "englishDishName": "Butter",
+            "pricing": "$6.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "烧烤",
+            "englishDishName": "BBQ",
+            "pricing": "$6.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "甘香",
+            "englishDishName": "Curry & Spice",
+            "pricing": "$6.50/per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "黑椒",
+            "englishDishName": "Black Pepper",
+            "pricing": "$6.50/per 100g",
+            "isAdvancedOrder": false
+        }
+    ],
+    "本地鱼 | Local Fish": [
+        {
+            "chineseDishName": "本地斗昌",
+            "englishDishName": "Local Promfret",
+            "pricing": "$9.80/ 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "金/红石班",
+            "englishDishName": "Gold/Red Garoupa",
+            "pricing": "$8.80 /100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "顺壳",
+            "englishDishName": "Soon Hock",
+            "pricing": "$8.00 / 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "午鱼",
+            "englishDishName": "Threadfin/Kurau",
+            "pricing": "$7.80/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "白昌",
+            "englishDishName": "White Prompret",
+            "pricing": "$7.20 / 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "伙仔鱼",
+            "englishDishName": "Leather Jacket",
+            "pricing": "$6.80 /100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "白肚鱼",
+            "englishDishName": "Rabbitfish/Peh Toh",
+            "pricing": "$6.80 /100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "白午鱼",
+            "englishDishName": "White Threadfin",
+            "pricing": "$5.50/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "石班",
+            "englishDishName": "Garoupa",
+            "pricing": "$6.80 /100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "黑昌",
+            "englishDishName": "Black Promfret",
+            "pricing": "$5.50 /100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "红曹",
+            "englishDishName": "Golden Snapper",
+            "pricing": "$5.80 /100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "照明",
+            "englishDishName": "Trevally",
+            "pricing": "$5.80 /100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "花点",
+            "englishDishName": "Steaked Rabbit Fish",
+            "pricing": "$4.80/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "红鸡",
+            "englishDishName": "Red Snapper",
+            "pricing": "$5.80 /100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "鹦哥",
+            "englishDishName": "Parrot Fish",
+            "pricing": "$4.50/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "乌鱼",
+            "englishDishName": "Mullet",
+            "pricing": "$4.50/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "金目卢",
+            "englishDishName": "Sea Bass",
+            "pricing": "$4.80/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "金昌",
+            "englishDishName": "Golden Promfret",
+            "pricing": "$4.50/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "布冷",
+            "englishDishName": "Golden Trevally",
+            "pricing": "$4.50/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "荷包昌",
+            "englishDishName": "Spade Fish",
+            "pricing": "$4.50/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "比目鱼",
+            "englishDishName": "Indian Halibut",
+            "pricing": "$4.50/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "尼罗红",
+            "englishDishName": "Tilapia",
+            "pricing": "$3.80/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "本地奎笼鱼",
+            "englishDishName": "Kelong Fish",
+            "pricing": "$4.80/100g",
+            "isAdvancedOrder": false
+        }
+    ],
+    "带子 | Scallop": [
+        {
+            "chineseDishName": "时菜带子",
+            "englishDishName": "Scallop with Seasonal Vegetables",
+            "pricing": "$20 | $30 | $40",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "宫保带子",
+            "englishDishName": "Kung Poh Scallop",
+            "pricing": "$20 | $30 | $40",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "芙蓉带子",
+            "englishDishName": "Scallop with Scrambled Egg",
+            "pricing": "$20 | $30 | $40",
+            "isAdvancedOrder": false
+        }
+    ],
+    "生蚝 | Oyster": [
+        {
+            "chineseDishName": "滑蛋生蚝",
+            "englishDishName": "Oyster with Scrambles Eggs",
+            "pricing": "$18 | $22 | 28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "姜葱生蚝",
+            "englishDishName": "Oyster with Spring Onion & Ginger",
+            "pricing": "$18 | $22 | 28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "豉汁生蚝",
+            "englishDishName": "Oyster with Soya Sauce",
+            "pricing": "$18 | $22 | 28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "油泡生蚝",
+            "englishDishName": "Stir Fried Oyster",
+            "pricing": "$18 | $22 | 28",
+            "isAdvancedOrder": false
+        }
+    ],
+    "铁板 | HotPlate": [
+        {
+            "chineseDishName": "铁板虾球",
+            "englishDishName": "HotPlate Prawns (Deshell)",
+            "pricing": "$22 | $33 | $44",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "铁板鹿肉",
+            "englishDishName": "HotPlate Venison",
+            "pricing": "$22 | $28 | $36",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "铁板生蚝",
+            "englishDishName": "HotPlate Oyster",
+            "pricing": "$18 | $22 | $28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "铁板牛肉",
+            "englishDishName": "HotPlate Beef",
+            "pricing": "$15 | $20 | $26",
+            "isAdvancedOrder": false
+        }
+    ],
+    "砂煲 | Claypot": [
+        {
+            "chineseDishName": "砂煲龙虾",
+            "englishDishName": "Claypot Lobster",
+            "pricing": "$19.80/100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "砂煲冬粉蟹肉",
+            "englishDishName": "Claypot Crab W Glass Noodle",
+            "pricing": "$9.80/ 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "砂煲螃蟹肉炒饭",
+            "englishDishName": "Claypot Rice W Crab Meat",
+            "pricing": "$9.80/ 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "砂煲鱼头",
+            "englishDishName": "Claypot Fish Head",
+            "pricing": "$35 | $38",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "砂煲豆腐",
+            "englishDishName": "Claypot Tofu",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "砂煲海鲜糜",
+            "englishDishName": "Claypot Seafood Porridge",
+            "pricing": "$18 | $24 | $32",
+            "isAdvancedOrder": false
+        }
+    ],
+    "螺 | Shellfish": [
+        {
+            "chineseDishName": "象拔蚌",
+            "englishDishName": "Geoduck",
+            "pricing": "market price",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "竹节蚌",
+            "englishDishName": "Bamboo Clam",
+            "pricing": "$16/pcs (min order 2pcs)",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "啦啦",
+            "englishDishName": "La La",
+            "pricing": "$15 | $22 | $28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "贡贡",
+            "englishDishName": "Gong Gong",
+            "pricing": "$24 | $36 | $48",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "大头",
+            "englishDishName": "Mussel",
+            "pricing": "$15 | $18 | $22",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "蒜头辣卤蛤",
+            "englishDishName": "Teochew Style Cockles",
+            "pricing": "$15 | $18 | $22",
+            "isAdvancedOrder": false
+        }
+    ],
+    "苏东 | Squid": [
+        {
+            "chineseDishName": "蒸苏东仔",
+            "englishDishName": "Steam Baby Squid",
+            "pricing": "$6.50 Per 100g",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "炸苏东仔",
+            "englishDishName": "Deep Fried Baby Squid",
+            "pricing": "$20 | $30 | $40",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "牛油苏东仔",
+            "englishDishName": "Calamari",
+            "pricing": "$18 | $22 | $28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "椒盐苏东仔",
+            "englishDishName": "Pepper & Salt Squid",
+            "pricing": "$18 | $22 | $28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "甘香苏东仔",
+            "englishDishName": "Squid W Curry & Spices",
+            "pricing": "$18 | $22 | $28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "咸蛋苏东",
+            "englishDishName": "Salted Egg Yolk Squid",
+            "pricing": "$20 | $25 | $30",
+            "isAdvancedOrder": false
+        }
+    ],
+    "鸭 | Duck": [
+        {
+            "chineseDishName": "客家卤鸭",
+            "englishDishName": "Hakka Braise Duck",
+            "pricing": "$20 | $34 | $60",
+            "isAdvancedOrder": false
+        }
+    ],
+    "鸡 | Chicken": [
+        {
+            "chineseDishName": "姜酒山笆鸡",
+            "englishDishName": "Kampong Chicken W Rice wine",
+            "pricing": "$34 | $62",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "麻油山笆鸡",
+            "englishDishName": "Clay Pot Kampong Chicken",
+            "pricing": "$24 | $46",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "咸蛋鸡丁",
+            "englishDishName": "Chicken Diced W Salted Egg Yolk",
+            "pricing": "$18 | $22 | $28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "宫保鸡丁",
+            "englishDishName": "Kung Poh Chicken Dice",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "姜葱鸡丁",
+            "englishDishName": "Chicken Diced W Spring Onion& Ginger ",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "虾酱鸡",
+            "englishDishName": "Prawn Paste Chicken (Mid Wings)",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        }
+    ],
+    "肉 | Pork": [
+        {
+            "chineseDishName": "排骨王",
+            "englishDishName": "Sweet & Sour Pork Ribs",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "咕噜肉",
+            "englishDishName": "Sweet & Sour Pork",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "姜葱猪肉",
+            "englishDishName": "Pork Wspring Onion & Ginger",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "红烧猪手",
+            "englishDishName": "Braised Trotter",
+            "pricing": "$42",
+            "isAdvancedOrder": false
+        }
+    ],
+    "蛋 | Omelette": [
+        {
+            "chineseDishName": "海鲜煎蛋",
+            "englishDishName": "Seafood Omelette",
+            "pricing": "$12 | $16 | $20",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "芙蓉煎蛋",
+            "englishDishName": "Fu Rong Omelette",
+            "pricing": "$12 | $16 | $20",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "银鱼煎蛋",
+            "englishDishName": "Silver Omelette",
+            "pricing": "$18 | $22 | $28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "蟹肉煎蛋",
+            "englishDishName": "Crab Meat Omelette",
+            "pricing": "$18 | $22 | $28",
+            "isAdvancedOrder": false
+        }
+    ],
+    "豆腐 | Tofu": [
+        {
+            "chineseDishName": "蟹扒豆腐",
+            "englishDishName": "Braised Beancurd W Crab Meat",
+            "pricing": "$18 | $26 | $34",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "铁板豆腐",
+            "englishDishName": "Hotpot Beancurd",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "砂煲豆腐",
+            "englishDishName": "Claypot Beancurd",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "金丝豆腐",
+            "englishDishName": "Homemade Beancurd",
+            "pricing": "$12 | $16 | 24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "椒盐豆腐",
+            "englishDishName": "Fried Beancurd  W Pepper & Salt",
+            "pricing": "$10 | $15 | $20",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "泰式豆腐",
+            "englishDishName": "Thai Style Beancurd",
+            "pricing": "$12 | $16 | $24",
+            "isAdvancedOrder": false
+        }
+    ],
+    "菜 | Vegetable": [
+        {
+            "chineseDishName": "三蛋苋菜",
+            "englishDishName": "Chinese Spinach W Assorted Eggs",
+            "pricing": "$15 | $22 | $28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "青龙菜",
+            "englishDishName": "QingLong Veg",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "马尼菜",
+            "englishDishName": "Manis Vegetable",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "虾米四季豆",
+            "englishDishName": "Fried French Bean W Dried Shrimp",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "罗汉上素",
+            "englishDishName": "Mixed Vegetable",
+            "pricing": "$12 | $16 | $22",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "番薯叶",
+            "englishDishName": "Sweet Potato Leaf",
+            "pricing": "$12 | $16 | $22",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "马来风光",
+            "englishDishName": "Sambal Kangkong ",
+            "pricing": "$10 | $15 | $18",
+            "isAdvancedOrder": false
+        }
+    ],
+    "汤 | Soup": [
+        {
+            "chineseDishName": "鱼漂汤",
+            "englishDishName": "Fish Maw soup",
+            "pricing": "$15 | $18 | $24",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "酸辣汤",
+            "englishDishName": "Sour & Spicy seafood soup",
+            "pricing": "$12 | $16 | $22",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "咸蛋豆腐汤",
+            "englishDishName": "Beancurd W Salted vegetable soup",
+            "pricing": "$10 | $15 | $18",
+            "isAdvancedOrder": false
+        }
+    ],
+    "面 | Noodle": [
+        {
+            "chineseDishName": "寿面",
+            "englishDishName": "Birthday noodle",
+            "pricing": "$10 | $15 | $20",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "干炒面线",
+            "englishDishName": "Fried Vermicelli",
+            "pricing": "$10 | $15 | $20",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "咸鱼炒饭",
+            "englishDishName": "Fried rice W salted fish",
+            "pricing": "$10 | $15 | $20",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "福建面",
+            "englishDishName": "Hokkien Mee",
+            "pricing": "$8 | $12 | $16",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "家乡面",
+            "englishDishName": "Hometown's fried noodle",
+            "pricing": "$8 | $12 | $16",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "星洲米粉",
+            "englishDishName": "Fried bee hoon",
+            "pricing": "$8 | $12 | $16",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "马来面",
+            "englishDishName": "Mee goreng",
+            "pricing": "$8 | $12 | $16",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "炒饭",
+            "englishDishName": "Fried Rice",
+            "pricing": "$8 | $12 | $16",
+            "isAdvancedOrder": false
+        }
+    ],
+    "小吃 | Finger Food": [
+        {
+            "chineseDishName": "佛钵飘香",
+            "englishDishName": "Yam Basket",
+            "pricing": "$32",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "金香鱼片",
+            "englishDishName": "Deep Fried Fish w Chili Powder",
+            "pricing": "$18 | $22 | $28",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "油条",
+            "englishDishName": "You tiao",
+            "pricing": "$12 | $16 | $20",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "虾枣",
+            "englishDishName": "Seafood roll",
+            "pricing": "$14 | $18 | $24",
+            "isAdvancedOrder": false
+        }
+    ],
+    "甜品 | Dessert": [
+        {
+            "chineseDishName": "白果芋泥",
+            "englishDishName": "Yam Paste W Ginko",
+            "pricing": "$15 | $20 | $30",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "水果",
+            "englishDishName": "Tropical Fruits",
+            "pricing": "$8 | $12 | $16",
+            "isAdvancedOrder": false
+        }
+    ],
+    "啤酒 | Beer": [
+        {
+            "chineseDishName": "啤酒",
+            "englishDishName": "Beer",
+            "pricing": "$9.50",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "虎标",
+            "englishDishName": "Tiger",
+            "pricing": "$9.50",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "青岛",
+            "englishDishName": "Tsingtao",
+            "pricing": "$9",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "喜力",
+            "englishDishName": "Heineken",
+            "pricing": "$11",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "红舌狗·",
+            "englishDishName": "Guinness Stout",
+            "pricing": "$13",
+            "isAdvancedOrder": false
+        }
+    ],
+    "冷饮料 | Chilled Beverage": [
+        {
+            "chineseDishName": "泰国香椰",
+            "englishDishName": "Thai coconut",
+            "pricing": "$6",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "果汁",
+            "englishDishName": "Assorted fruit Juice",
+            "pricing": "$5",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "矿泉水",
+            "englishDishName": "Mineral water",
+            "pricing": "$2.50",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "汽水",
+            "englishDishName": "Assorted Soft drink",
+            "pricing": "$3",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "冰水",
+            "englishDishName": "Iced water",
+            "pricing": "$0.50",
+            "isAdvancedOrder": false
+        }
+    ],
+    "热饮料 | Hot drinks": [
+        {
+            "chineseDishName": "热水",
+            "englishDishName": "Warm Water",
+            "pricing": "$0.50",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "咖啡",
+            "englishDishName": "Coffee",
+            "pricing": "$3",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "中国茶",
+            "englishDishName": "Chinese tea",
+            "pricing": "$1.50",
+            "isAdvancedOrder": false
+        },
+        {
+            "chineseDishName": "菊花茶",
+            "englishDishName": "Chrysanthemum tea",
+            "pricing": "$1.50",
+            "isAdvancedOrder": false
+        }
+    ]
+}
