@@ -2,6 +2,9 @@ import Header from "../Components/Common/Header";
 import { BasicLayout } from "../Layouts/Base/BasicLayout";
 import ContentSection from "../Components/Common/ContentSection";
 import DishMenu from "../Components/DishMenu";
+import { Image } from "primereact/image";
+import { IconOptions } from "primereact/utils";
+import { PrimeIcons } from "primereact/api";
 
 export const LandingView = () => {
     // TODO: we need to change this or at least redircet
@@ -11,6 +14,25 @@ export const LandingView = () => {
             // includesBottomNav={true}
             mainContent={
                 <>
+                    <ContentSection
+                        titleEng="ongoing promotion"
+                        content={
+                            <div className="text-center">
+                                <Image
+                                    src="/images/galleria/galleria12.jpg"
+                                    indicatorIcon={
+                                        <i
+                                            className="pi-expand
+"
+                                        />
+                                    }
+                                    alt="Image"
+                                    preview
+                                    width="250"
+                                />
+                            </div>
+                        }
+                    />
                     <ContentSection
                         titleEng="about us"
                         content={
