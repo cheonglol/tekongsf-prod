@@ -17,19 +17,15 @@ export const LandingView = () => {
                     <ContentSection
                         titleEng="ongoing promotion"
                         content={
-                            <div className="text-center">
+                            <div className="text-center md:max-w-[60vw] mx-auto">
+                                <h2 className="my-8">2025 CNY Promotion Packages</h2>
                                 <Image
-                                    src="/images/galleria/galleria12.jpg"
-                                    indicatorIcon={
-                                        <i
-                                            className="pi-expand
-"
-                                        />
-                                    }
+                                    src="/images/promo-menus/2025-CNY-promo-package.jpg"
+                                    indicatorIcon={<i className="pi-expand" />}
                                     alt="Image"
                                     preview
-                                    width="250"
                                 />
+                                <span className="text-sm text-gray-500">tap or click to enlarge</span>
                             </div>
                         }
                     />
@@ -120,32 +116,37 @@ export const LandingView = () => {
                     <ContentSection
                         titleEng="RESERVATION"
                         titleChi="预订"
+                        // backgroundImgSrc="images/Backdrop.jpg"
                         content={
-                            <div className="md:flex md:flex-row-reverse">
-                                <div className="m-0 md:m-4 md:flex-grow-[1] min-h-fit">
-                                    <iframe
-                                        title="Quandoo Booking Widget"
-                                        src="https://www.quandoo.sg/checkout-widget/widget?agentId=2&amp;merchantId=40499&amp;primaryColor=f5b016&amp;theme=light&amp;widgetType=calendar"
-                                        className="min-h-[685px] w-[100%]"
-                                    ></iframe>
-                                    {/* <div id="quandoo-booking-widget" className="m-auto"></div> */}
+                            <>
+                                <div className="md:flex md:flex-row-reverse">
+                                    <div className="m-0 md:m-4 md:flex-grow-[1] min-h-fit">
+                                        <iframe
+                                            id="qd-booking"
+                                            title="Quandoo Booking Widget"
+                                            src="https://www.quandoo.sg/checkout-widget/widget?agentId=2&amp;merchantId=40499&amp;primaryColor=f5b016&amp;theme=light&amp;widgetType=calendar"
+                                            className="min-h-[685px] w-[100%] shadow mb-6"
+                                        ></iframe>
+                                        {/* <div id="quandoo-booking-widget" className="m-auto"></div> */}
+                                    </div>
+                                    <div className="m-0 md:m-4 md:flex-grow-[1.5] md:w-[40vw]">
+                                        <iframe
+                                            title="Google Maps"
+                                            className="rounded-md shadow"
+                                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.57717929964!2d103.9887667!3d1.3899862!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaf95959e509a6e27!2sTekong+Seafood+Restaurant!5e0!3m2!1sen!2sau!4v1546924456558"
+                                            width="100%"
+                                            height={document.getElementById("qd-booking")?.offsetHeight}
+                                            allowFullScreen
+                                        />
+                                    </div>
                                 </div>
-                                <div className="m-0 md:m-4 md:flex-grow-[1.5] md:w-[40vw]">
-                                    <img
-                                        alt="reservation_image"
-                                        src="https://scontent.fsin11-1.fna.fbcdn.net/v/t39.30808-6/304190411_582497816972327_1151698159248212944_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=KOsQJVqNMzcQ7kNvgHrtcZf&_nc_ht=scontent.fsin11-1.fna&oh=00_AYD9NyBwBJxxUMEIEURDpuot3buRo5xTlUeVMuaTzEUl_w&oe=66AE9C0F"
-                                        className="shadow-sm rounded-md block my-4 w-[100%]  m-auto"
-                                    />
-                                    <iframe
-                                        title="Google Maps"
-                                        className="rounded-md"
-                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.57717929964!2d103.9887667!3d1.3899862!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaf95959e509a6e27!2sTekong+Seafood+Restaurant!5e0!3m2!1sen!2sau!4v1546924456558"
-                                        width="100%"
-                                        height="850"
-                                        allowFullScreen
-                                    />
-                                </div>
-                            </div>
+                                <img
+                                    alt="reservation_image"
+                                    src="images/backdrop.jpg"
+                                    // src="https://scontent.fsin11-1.fna.fbcdn.net/v/t39.30808-6/304190411_582497816972327_1151698159248212944_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=KOsQJVqNMzcQ7kNvgHrtcZf&_nc_ht=scontent.fsin11-1.fna&oh=00_AYD9NyBwBJxxUMEIEURDpuot3buRo5xTlUeVMuaTzEUl_w&oe=66AE9C0F"
+                                    className="shadow-sm rounded-md block my-4 m-auto"
+                                />
+                            </>
                         }
                     />
                     {/* MENU */}

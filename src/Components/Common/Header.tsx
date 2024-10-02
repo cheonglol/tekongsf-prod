@@ -6,7 +6,7 @@ export const Header = (): JSX.Element => {
                     window.location.href = "/";
                 }}
                 className="max-w-[50vw] md:max-w-[30vw] lg:max-w-[18vw]"
-                src="mirror_logo.png"
+                src="images/mirror_logo.png"
                 alt="tekong-seafood-resturant-logo"
             />
         </div>

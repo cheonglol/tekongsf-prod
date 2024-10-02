@@ -11,7 +11,7 @@ const FindUs = () => {
             <h1 className={`${contentSectionHeader}`}>Find Us</h1>
             <div className="md:flex md:flex-row-reverse">
                 <div className="md:m-4 md:flex-grow-[1] text-center md:text-left space-y-4">
-                    <img src="Backdrop.jpg" className="object-cover mx-0 overflow-clip md:w-[400px] w-[100%]" />
+                    <img src="/images/Backdrop.jpg" className="object-cover mx-0 overflow-clip md:w-[400px] w-[100%]" />
                     <h1>Opens Daily</h1>
                     <p>Opening & Closing Hours</p>
                     <ul className="list md:ml-4">
