@@ -3,8 +3,8 @@ import { BasicLayout } from "../Layouts/Base/BasicLayout";
 import ContentSection from "../Components/Common/ContentSection";
 import DishMenu from "../Components/DishMenu";
 import { Image } from "primereact/image";
-import { IconOptions } from "primereact/utils";
-import { PrimeIcons } from "primereact/api";
+// import { IconOptions } from "primereact/utils";
+// import { PrimeIcons } from "primereact/api";
 
 export const LandingView = () => {
     // TODO: we need to change this or at least redircet
