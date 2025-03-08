@@ -14,7 +14,7 @@ export const LandingView = () => {
             // includesBottomNav={true}
             mainContent={
                 <>
-                    <ContentSection
+                    {/* <ContentSection
                         titleEng="ongoing promotion"
                         content={
                             <div className="text-center md:max-w-[60vw] mx-auto">
@@ -28,7 +28,7 @@ export const LandingView = () => {
                                 <span className="text-sm text-gray-500">tap or click to enlarge</span>
                             </div>
                         }
-                    />
+                    /> */}
                     <ContentSection
                         titleEng="about us"
                         content={
