@@ -3,8 +3,8 @@ import { BasicLayout } from "../Layouts/Base/BasicLayout";
 import ContentSection from "../Components/Common/ContentSection";
 import DishMenu from "../Components/DishMenu";
 import { Image } from "primereact/image";
-import { IconOptions } from "primereact/utils";
-import { PrimeIcons } from "primereact/api";
+// import { IconOptions } from "primereact/utils";
+// import { PrimeIcons } from "primereact/api";
 
 export const LandingView = () => {
     // TODO: we need to change this or at least redircet
@@ -14,7 +14,7 @@ export const LandingView = () => {
             // includesBottomNav={true}
             mainContent={
                 <>
-                    <ContentSection
+                    {/* <ContentSection
                         titleEng="ongoing promotion"
                         content={
                             <div className="text-center md:max-w-[60vw] mx-auto">
@@ -28,7 +28,7 @@ export const LandingView = () => {
                                 <span className="text-sm text-gray-500">tap or click to enlarge</span>
                             </div>
                         }
-                    />
+                    /> */}
                     <ContentSection
                         titleEng="about us"
                         content={
@@ -142,7 +142,7 @@ export const LandingView = () => {
                                 </div>
                                 <img
                                     alt="reservation_image"
-                                    src="images/backdrop.jpg"
+                                    src="images/backdrop-dark-0.jpg"
                                     // src="https://scontent.fsin11-1.fna.fbcdn.net/v/t39.30808-6/304190411_582497816972327_1151698159248212944_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=KOsQJVqNMzcQ7kNvgHrtcZf&_nc_ht=scontent.fsin11-1.fna&oh=00_AYD9NyBwBJxxUMEIEURDpuot3buRo5xTlUeVMuaTzEUl_w&oe=66AE9C0F"
                                     className="shadow-sm rounded-md block my-4 m-auto"
                                 />
