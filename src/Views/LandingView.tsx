@@ -14,13 +14,13 @@ export const LandingView = () => {
             // includesBottomNav={true}
             mainContent={
                 <>
-                    {/* <ContentSection
+                    <ContentSection
                         titleEng="ongoing promotion"
                         content={
                             <div className="text-center md:max-w-[60vw] mx-auto">
-                                <h2 className="my-8">2025 CNY Promotion Packages</h2>
+                                <h2 className="my-8">2025 NDP Promotion Packages</h2>
                                 <Image
-                                    src="/images/promo-menus/2025-CNY-promo-package.jpg"
+                                    src="/images/promo-menus/2025-ndp.png"
                                     indicatorIcon={<i className="pi-expand" />}
                                     alt="Image"
                                     preview
@@ -28,35 +28,43 @@ export const LandingView = () => {
                                 <span className="text-sm text-gray-500">tap or click to enlarge</span>
                             </div>
                         }
-                    /> */}
-                    <ContentSection
-                        titleEng="about us"
-                        content={
-                            <div className="text-center">
-                                <h2 className="my-8">A Seaside Dining Experience in Changi</h2>
-                                <p className="m-auto text-justify w-[75vw] md:[60vw] lg:w-[40vw]">
-                                    Nestled in the heart of Changi, Tekong Seafood Restaurant offers a delectable
-                                    Chinese seafood dining experience for locals and tourists alike. Originally
-                                    established on Tekong Island, our restaurant has since moved to the Singapore
-                                    mainland, where we continue to offer the freshest catches and exceptional service in
-                                    a casual and inviting setting. Indulge in our menu's highlights, including succulent
-                                    red flower crabs, tender boiled pork belly, and a wide selection of seafood dishes,
-                                    many of which are sourced from local fishermen to ensure the utmost quality and
-                                    freshness. Whether you're celebrating a special occasion or simply looking for a
-                                    laid-back meal with loved ones, Tekong Seafood Restaurant promises a memorable
-                                    dining experience that celebrates the bounty of Singapore's coastal waters. Join us
-                                    for a taste of local seafood cuisine at its finest, set against the backdrop of
-                                    Changi's tranquil seaside charm. Our spacious dining area can accommodate groups
-                                    large and small, so make a reservation today and come experience the flavors that
-                                    have kept our patrons coming back for over 35 years.
-                                </p>
-                            </div>
-                        }
                     />
+                    <div>
+                        <ContentSection
+                            titleEng="about us"
+                            content={
+                                <div className="text-center">
+                                    <h2 className="my-8">A Seaside Dining Experience in Changi</h2>
+                                    <p className="m-auto text-justify w-[75vw] md:[60vw] lg:w-[40vw]">
+                                        Nestled in the heart of Changi, Tekong Seafood Restaurant offers a delectable
+                                        Chinese seafood dining experience for locals and tourists alike. Originally
+                                        established on Tekong Island, our restaurant has since moved to the Singapore
+                                        mainland, where we continue to offer the freshest catches and exceptional
+                                        service in a casual and inviting setting. Indulge in our menu's highlights,
+                                        including succulent red flower crabs, tender boiled pork belly, and a wide
+                                        selection of seafood dishes, many of which are sourced from local fishermen to
+                                        ensure the utmost quality and freshness. Whether you're celebrating a special
+                                        occasion or simply looking for a laid-back meal with loved ones, Tekong Seafood
+                                        Restaurant promises a memorable dining experience that celebrates the bounty of
+                                        Singapore's coastal waters. Join us for a taste of local seafood cuisine at its
+                                        finest, set against the backdrop of Changi's tranquil seaside charm. Our
+                                        spacious dining area can accommodate groups large and small, so make a
+                                        reservation today and come experience the flavors that have kept our patrons
+                                        coming back for over 35 years.
+                                    </p>
+                                    <img
+                                        src="/images/CDCV_Teal_Decal.png"
+                                        alt="Teal Decal"
+                                        className="mt-[50px] w-[50vw] inline-block"
+                                    />
+                                </div>
+                            }
+                        />
+                    </div>
                     <ContentSection
                         titleEng="Media"
                         content={
-                            <div className="md:flex md:flex-row m-auto">
+                            <div className="m-auto md:flex md:flex-row">
                                 <iframe
                                     title="Youtube Video Player"
                                     src="https://www.youtube-nocookie.com/embed/kW3zm9-F3Cs?si=h8xdp2QgpFEI2UxU"
@@ -144,7 +152,7 @@ export const LandingView = () => {
                                     alt="reservation_image"
                                     src="images/backdrop-dark-0.jpg"
                                     // src="https://scontent.fsin11-1.fna.fbcdn.net/v/t39.30808-6/304190411_582497816972327_1151698159248212944_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=KOsQJVqNMzcQ7kNvgHrtcZf&_nc_ht=scontent.fsin11-1.fna&oh=00_AYD9NyBwBJxxUMEIEURDpuot3buRo5xTlUeVMuaTzEUl_w&oe=66AE9C0F"
-                                    className="shadow-sm rounded-md block my-4 m-auto"
+                                    className="block m-auto my-4 rounded-md shadow-sm"
                                 />
                             </>
                         }
