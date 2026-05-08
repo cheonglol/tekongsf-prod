@@ -20,11 +20,12 @@ export const LandingView = () => {
                             <div className="text-center md:max-w-[60vw] mx-auto">
                                 <h2 className="my-8">2026 Mother's Day Promo</h2>
                                 <Image
-                                    src="/images/2026/2026-mothersday.jpg" 
+                                    src="/images/2026/2026-mothersday.jpg"
                                     indicatorIcon={<i className="pi-expand" />}
                                     alt="Image"
                                     preview
                                 />
+                                <br />
                                 <span className="text-sm text-gray-500">tap or click to enlarge</span>
                             </div>
                         }
