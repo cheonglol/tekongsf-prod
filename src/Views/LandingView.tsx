@@ -18,9 +18,9 @@ export const LandingView = () => {
                         titleEng="ongoing promotion"
                         content={
                             <div className="text-center md:max-w-[60vw] mx-auto">
-                                <h2 className="my-8">2026 CNY Promo Package</h2>
+                                <h2 className="my-8">2026 Mother's Day Promo</h2>
                                 <Image
-                                    src="/images/2026/2026-CNY.jpg" 
+                                    src="/images/2026/2026-mothersday.jpg" 
                                     indicatorIcon={<i className="pi-expand" />}
                                     alt="Image"
                                     preview
